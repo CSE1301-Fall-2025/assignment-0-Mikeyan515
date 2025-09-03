@@ -21,7 +21,7 @@ public class RobotInstructions  {
 		 * a measurement of distance on a computer screen.
 		 * 
 		 * The second line causes the support.robot to turn left.  Based on what you see,
-		 * what does "90" represent?
+		 * what does "90" represent?  Ans: 90 degrees
 		 * 
 		 * Run the program as instructed in the lab write-up and observe how the support.robot
 		 * moves in response to the code you see below.
@@ -29,11 +29,16 @@ public class RobotInstructions  {
 		 * You will add instructions at the end of the code to cause the support.robot to move
 		 * as you desire.
 		 */
+		robot.forward(120);
+		robot.turnRight(80);
+		robot.forward(120);
+		robot.turnLeft(45);
+		robot.forward(120);
+		robot.turnLeft(20);
 		robot.forward(60);
-		robot.turnLeft(90);
-		robot.forward(23);
-		robot.turnRight(90);
-		robot.forward(80);
+		robot.forward(60);
+		robot.forward(120);
+		
 	}
 
 }
